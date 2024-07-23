@@ -22,6 +22,7 @@ The repository is structured with one folder for each programming language. Each
 - Java
 - R
 - Go
+- Haskell
 
 I've started off the implementations by writing the Python one and the rest are based on that, with a little bit of help from our good old friend `ChatGPT`. If anyone fancies adding a new language or improving one of the existing implementations, that would be very welcome!
 
