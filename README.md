@@ -1,6 +1,8 @@
 # Automatic Differentiation in any Programming Language
 This repository demonstrates Automatic differentiation in a range of programming languages using forward mode complex-step automatic differentiation.
 
+Blog post soon to be published on [my website](https://hh409.user.srcf.net/).
+
 ## Introduction
 Automatic differentiation (AD) is a set of techniques to numerically evaluate the derivative of a function specified by a computer program. AD exploits the fact that every computer program, no matter how complicated, executes a sequence of elementary arithmetic operations (addition, subtraction, multiplication, division, etc.) and elementary functions (exp, log, sin, cos, etc.). By applying the chain rule repeatedly to these operations, derivatives of arbitrary order can be computed automatically, accurately to working precision, and using at most a small constant factor more arithmetic operations than the original program.
 
@@ -27,5 +29,5 @@ I've started off the implementations by writing the Python one and the rest are 
 For a real-valued function $f(x)$, the derivative can be computed using the complex-step method as follows:
 1. Replace the real variable $x$ with a complex variable $z = x + ih$ where $i$ is the imaginary unit and $h$ is a small step size.
 2. Compute the function value $f(z)$ using complex arithmetic.
-3. The derivative of $f(x)$ is then given by the imaginary part of $f(z)$ divided by $h.
+3. The derivative of $f(x)$ is then given by the imaginary part of $f(z)$ divided by $h$.
 
