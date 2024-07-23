@@ -21,8 +21,11 @@ The repository is structured with one folder for each programming language. Each
 - R
 - Go
 
+I've started off the implementations by writing the Python one and the rest are based on that, with a little bit of help from our good old friend `ChatGPT`. If anyone fancies adding a new language or improving one of the existing implementations, that would be very welcome!
+
 ## The math behind the complex-step method
 For a real-valued function $f(x)$, the derivative can be computed using the complex-step method as follows:
 1. Replace the real variable $x$ with a complex variable $z = x + ih$ where $i$ is the imaginary unit and $h$ is a small step size.
 2. Compute the function value $f(z)$ using complex arithmetic.
 3. The derivative of $f(x)$ is then given by the imaginary part of $f(z)$ divided by $h.
+
