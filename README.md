@@ -19,6 +19,7 @@ The repository is structured with one folder for each programming language. Each
 - Rust
 - Java
 - R
+- Go
 
 ## The math behind the complex-step method
 For a real-valued function $f(x)$, the derivative can be computed using the complex-step method as follows:
